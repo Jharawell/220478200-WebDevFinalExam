@@ -1,8 +1,14 @@
 .class{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 p{
-    gap: 20;
+    color: #0000ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lorem{
+    gap: 2;
 }
