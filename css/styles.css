@@ -1,15 +1,31 @@
-.class{
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: pink;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid;
 }
 
-p{
-    color: #0000ff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.item1{
+    background-color: blueviolet;
 }
 
-.lorem{
-    gap: 2;
-    color: #0000ff;
+.item2{
+    background-color: aqua;
+}
+
+.item3{
+    background-color: red;
 }
